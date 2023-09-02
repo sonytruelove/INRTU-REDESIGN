@@ -1,0 +1,51 @@
+.banner-vklad{
+margin-left: 19%;
+margin-right: 17.2%;
+position: relative; 
+padding: 0; 
+}
+.banner-vklad img {
+  margin: 0 10px 10px 0;
+}
+.vklad_text {
+  position: absolute;
+  bottom: 9px;
+  background-color: rgba(6,123,252, 0.8);
+  color: white;
+  width: 100%;
+  padding: 6px 87px;
+  height: 24%;
+  font-size: 22px;
+}
+.vklad_btn {
+  position: absolute;
+  bottom: 23px;
+  right: 105px;
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 9px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 120%;
+  font-weight: bold;
+  padding: 9px 30px;
+}
+ 
+@media(max-width: 1000px){
+.banner-vklad{
+margin-left: 0%;
+margin-right: 0%;
+}
+.vklad_btn {
+  bottom: 14px;
+  right: 52px;
+  font-size: 80%;
+  padding: 6px 21px;
+}
+.vklad_text {
+  padding: 2px 45px;
+  font-size: 13px;
+}
+.banner-vklad img {
+  max-width: 100%;
+}}

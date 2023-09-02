@@ -1,0 +1,37 @@
+.links-banners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.links-banners-item {
+  display: flex;
+  box-sizing: border-box;
+  flex-grow: 1;
+  min-width: 250px;
+  min-height: 70px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  color: #000;
+  background-size: cover;
+  border-radius: 7px;
+}
+.links-banners-logo {
+  box-sizing: border-box;
+  width: 74px;
+  height: 74px;
+  padding: 7px;
+  overflow: hidden;
+}
+.links-banners-text {
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+}
+.links-banners-header {
+  font-size: 16px;
+  font-weight: bold;
+}
+.links-banners-comment {
+  font-size: 11px;
+  color: #555;
+}

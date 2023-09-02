@@ -1,0 +1,30 @@
+.banner2-item {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 225px;
+  display: inline-block;
+  margin: 0 20px 20px 0;
+  text-align: left;
+}
+.banner2-bg1, .banner2-bg2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.banner2-title {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  font-size: 20px;
+  color: #5fa8ed;
+  text-shadow: 1px 1px 2px black;
+}
+.fp-banners-alt {
+  margin: 20px 0;
+  overflow: hidden;
+  text-align: center;
+}
